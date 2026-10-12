@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Rowery</title>
+</head>
+<body>
+
+<header>
+    <h1>Świat rowerów</h1>
+</header>
+
+<nav>
+    <a href="#listy">Listy</a> |
+    <a href="#galeria">Galeria</a> |
+    <a href="#formularz">Kontakt</a>
+</nav>
+
+<article>
+    <section>
+        <h2>Rodzaje rowerów</h2>
+        <p>Istnieją rowery górskie, miejskie i szosowe.</p>
+    </section>
+
+    <section id="listy">
+        <h2>Listy uporządkowane</h2>
+
+        <ol>
+            <li>Rower górski</li>
+            <li>Rower miejski</li>
+        </ol>
+
+        <ol type="A">
+            <li>Kask</li>
+            <li>Dzwonek</li>
+        </ol>
+
+        <ol type="a">
+            <li>Opony</li>
+            <li>Hamulce</li>
+        </ol>
+
+        <ol type="I">
+            <li>Jazda</li>
+            <li>Postój</li>
+        </ol>
+
+        <ol type="i">
+            <li>ZST Suwałki</li>
+            <li>Ekonomiak</li>
+        </ol>
+    </section>
+
+    <section id="galeria">
+        <h2>Galeria</h2>
+
+        <figure>
+            <img src="https://images.bike24.com/i/mb/b2/ac/27/my25gloryadvanced-colorablacklava-mercurybearbeitet-1752281.jpg" alt="Rower górski" width="200">
+            <figcaption>Rower górski</figcaption>
+        </figure>
+
+        <figure>
+            <img src="https://sklepmrowkanasielsk.pl/9689-large_default/rower-miejski-trk-cruise-28-6s-czarny-meski.jpg" alt="Rower miejski" width="200">
+            <figcaption>Rower miejski</figcaption>
+        </figure>
+
+    </section>
+
+    <aside>
+        <p>Jazda na rowerze poprawia kondycję.</p>
+    </aside>
+</article>
+
+<section id="formularz">
+    <h2>Formularz kontaktowy</h2>
+
+    <form action="mailto:tderesz@zst.suwalki.pl"
+          method="post" enctype="text/plain">
+
+        Podaj swoje nazwisko i imię:
+        <input type="text" name="imie_i_nazwisko">
+        <br><br>
+
+        Wykształcenie:<br>
+        <input type="checkbox" name="wyksztalcenie" value="Podstawowe">
+        Podstawowe<br>
+
+        <input type="checkbox" name="wyksztalcenie" value="Średnie">
+        Średnie<br>
+
+        <input type="checkbox" name="wyksztalcenie" value="Wyższe">
+        Wyższe<br><br>
+
+        <input type="checkbox" name="zgoda" value="Tak" required>
+        Zgadzam się na przetwarzanie moich danych osobowych
+        <br><br>
+
+        <input type="submit" value="Wyślij">
+        <input type="reset" value="Wyczyść">
+    </form>
+</section>
+
+<footer>
+    <p>Strona o rowerach</p>
+</footer>
+
+</body>
+</html>
